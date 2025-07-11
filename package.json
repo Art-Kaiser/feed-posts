@@ -1,0 +1,43 @@
+{
+	"name": "placeholder",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc -b && vite build",
+		"lint": "eslint .",
+		"preview": "vite preview",
+		"prettier-format": "prettier --config .prettierrc '**/*.{json,js,jsx,ts,tsx,css,scss,md}' --write",
+		"steiger": "npx steiger ./src --watch"
+	},
+	"dependencies": {
+		"@ant-design/v5-patch-for-react-19": "^1.0.3",
+		"antd": "^5.25.2",
+		"@tanstack/react-query": "^5.76.1",
+		"classnames": "^2.5.1",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0",
+		"react-router-dom": "^7.5.3",
+		"react-transition-group": "^4.4.5"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.22.0",
+		"@tanstack/react-query-devtools": "^5.76.1",
+		"@types/react": "^19.0.10",
+		"@types/react-dom": "^19.0.4",
+		"@types/react-transition-group": "^4.4.12",
+		"@vitejs/plugin-react-swc": "^3.8.0",
+		"eslint": "^9.22.0",
+		"eslint-plugin-react-hooks": "^5.2.0",
+		"eslint-plugin-react-refresh": "^0.4.19",
+		"globals": "^16.0.0",
+		"prettier": "^3.5.3",
+		"steiger": "^0.5.6",
+		"typescript": "~5.7.2",
+		"typescript-eslint": "^8.26.1",
+		"vite": "^6.3.1",
+		"vite-plugin-checker": "^0.9.1",
+		"vite-plugin-svgr": "^4.3.0"
+	}
+}
