@@ -4,8 +4,8 @@ import { Descriptions, Skeleton } from 'antd';
 
 import { userApi } from '../../../../features/user';
 import { APP_TEXT } from '../../../../shared/localization';
-import { IUser } from '../../types/user.interface.ts';
 import { Loader } from '../../../../shared/ui';
+import { IUser } from '../../model/user.interface.ts';
 
 interface IAuthor {
 	userId?: number;
