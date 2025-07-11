@@ -8,6 +8,8 @@ import { ROUTER_PATH } from '../../../../shared/router';
 import { LIMIT_TEXT_LENGTH } from '../../../../shared/config';
 import { APP_TEXT } from '../../../../shared/localization';
 
+import styles from './Post.module.css';
+
 const Post: FC<IPost> = ({ id, title, body }) => {
 	const navigate = useNavigate();
 
@@ -27,7 +29,7 @@ const Post: FC<IPost> = ({ id, title, body }) => {
 
 	return (
 		<Card
-			title={`№ ${id} ${title}`}
+			title={<p className={styles.postTitle}>{`№${id} ${title}`}</p>}
 			extra={
 				<Button onClick={handleClickToView} type='primary'>
 					{APP_TEXT.buttonView}

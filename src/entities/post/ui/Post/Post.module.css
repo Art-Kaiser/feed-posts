@@ -1,0 +1,4 @@
+.postTitle {
+	white-space: break-spaces;
+	word-break: keep-all;
+}

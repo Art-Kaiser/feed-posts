@@ -4,7 +4,7 @@ import { Descriptions, Skeleton } from 'antd';
 
 import { userApi } from '../../../../features/user';
 import { APP_TEXT } from '../../../../shared/localization';
-import { IUser } from '../../../../entities/user/@x/user.interface.ts';
+import { IUser } from '../../types/user.interface.ts';
 import { Loader } from '../../../../shared/ui';
 
 interface IAuthor {
