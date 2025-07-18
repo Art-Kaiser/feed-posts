@@ -16,7 +16,6 @@ const PostDetail = () => {
 		queryKey: ['post', postId],
 		queryFn: () => feedApi.getPostById<IPost>(postId),
 	});
-	console.log('isLoading: ', isLoading);
 
 	return (
 		<Flex vertical justify={'center'} style={{ height: '90vh' }}>
