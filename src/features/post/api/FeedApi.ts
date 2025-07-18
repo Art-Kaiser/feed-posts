@@ -25,4 +25,4 @@ class FeedApi implements IFeedApi {
 	}
 }
 
-export const feedApi = new FeedApi(fetchClient, { path: 'posts' });
+export const feedApi = new FeedApi(fetchClient);

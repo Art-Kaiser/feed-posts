@@ -8,7 +8,6 @@ export class FetchClient implements IHTTPClient {
 	private readonly headers: HeadersInit;
 
 	constructor({ path, version, headers }: IOptions) {
-		console.log('path: ', path)
 		this.baseUrl = path;
 		this.version = version;
 		this.headers = headers ?? {
